@@ -1,0 +1,27 @@
+Benefícios da TC 
+- Colocar no centro ok
+- alinhar o primeiro texto com o meio ok
+- ajustar a borda que separa (reduzir ou colocar imagem)
+- tentar colocar a parte menor no meio ok
+
+Adicionar o vídeo ok
+Adicionar imagens ok
+
+Desenquadradar
+
+Minha tragetória
+- reduzir o limite de expansão de texto -julio
+- Colocar o título a esquerda ?
+
+Tipos de Tratamento
+- ajustar imagem de borda -julio?
+
+Parte principal
+- Aumentar o título ok
+- ajustar centralizações ok
+
+--------------------------------------
+
+- Colocar botão do Wpp que acompanha
+- deixar responsivo
+- menu mais interativo + JS 

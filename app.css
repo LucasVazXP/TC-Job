@@ -1,0 +1,577 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body {
+    background: #6D8B85;
+
+}
+
+#mainSec {
+    margin: 0;
+    padding-top: 18rem;
+    padding-bottom: 23rem;
+    background-image: url('imgs/psicoterapia-online3.jpg');
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    #mainSec .title-wraper {
+        background-color: rgba(0, 0, 0, 0.3);
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 5px;
+        color: #fff;
+
+        h1 {
+            color: #fff;
+            word-break: break-word;
+            font-size: 2rem;
+            padding: 5px 0 10px 0;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+
+}
+
+.btnCon {
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.btnCon:hover {
+    background-color: #A5593C;
+    color: white;
+    transition: 0.6s;
+}
+
+h3 {
+    font-family: 'Caveat', sans-serif;
+    /* font-family: 'Caveat', cursive; */
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-align: center;
+    /* max-width: 80%; */
+}
+
+nav {
+    padding-left: 0.5rem;
+    border-left: 0.5rem;
+    background-color: #A5593C;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Manjari', 'Mulish', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.07rem;
+    font-weight: 550;
+
+}
+
+#mainSec p {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+}
+
+#mainSec h3 {
+    font-size: 2rem;
+}
+
+p span {
+    color: #A5593C;
+    font-weight: 900;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 3.7rem;
+    color: rgb(10, 9, 9);
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-family: 'Manjari', 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: rgb(10, 9, 9);
+    margin: 15px;
+    text-align: right;
+}
+
+
+#logoNav {
+    width: 110px;
+    height: 60px;
+    padding: 0;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+@media (max-width:762px) {
+    .sec2Row-it {
+        max-width: 100%;
+    }
+}
+
+.newH2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    text-align: right;
+
+}
+
+.newH2 span {
+    width: 20%;
+    border-bottom: 2px solid #A5593C;
+    content: " ";
+
+
+}
+
+#secTrag .newH2 span {
+    width: 40%;
+    border-bottom: 2px solid #A5593C;
+    content: " ";
+
+}
+
+.newH2 h2 {
+    padding: -5px;
+    margin: 0;
+}
+
+#secTrag {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#secTrag p {
+
+    padding-bottom: 1rem;
+    text-align: left;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+
+}
+
+#secTrag img {
+    max-width: 70%;
+    border-radius: 30px;
+}
+
+#secPqTera {
+    background-color: #A5593C;
+    color: #D8E3DD;
+}
+
+#secPqTera .newH2 span {
+    width: 20%;
+    border-bottom: 2px solid #6D8B85;
+    content: " ";
+}
+
+#secPqTera h2 {
+    color: #D8E3DD;
+}
+
+#secPqTera p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+#secFunc {
+    background-color: #D8E3DD;
+}
+
+#secFunc .secFunc-row {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#secFunc .secFunc-it {
+    max-width: 20%;
+    min-width: 20%;
+
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#secFunc .newH2 {
+    padding-top: 2rem;
+}
+
+#secFunc p {
+    padding-top: 1rem;
+}
+
+#secFunc .btnCon {
+    color: #A5593C;
+    border: 2px solid #A5593C;
+
+}
+
+.btnCon:hover {
+    background-color: white;
+    color: white;
+    transition: 0.6s;
+}
+
+#secTC {
+    background-color: #D8E3DD;
+    padding: 10rem 5rem 10rem 5rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#secTC .newH2 span {
+    width: 30%;
+    border-bottom: 2px solid #A5593C;
+    margin: 0 auto;
+}
+
+.TC-row-double {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: white;
+    border-radius: 1%;
+}
+
+#secTC h3 {
+    color: #A5593C;
+    padding: 0 0 2rem 0;
+
+}
+
+#secTC p {
+    text-align: left;
+}
+
+.gB {
+    border-right: 2px dashed #A5593C;
+}
+
+.tct-row {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 1rem;
+    margin: 0;
+    background-color: white;
+    border-radius: 50px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.tct-it {
+    max-width: 32%;
+    min-width: 20%;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: auto;
+}
+
+
+
+@media (max-width:762px) {
+    .sec2Row-it {
+        max-width: 100%;
+    }
+}
+
+#sec-tt {
+    background-color: #A5593C;
+    padding: 2rem;
+}
+
+#sec-tt .gB {
+    border-right: 2px solid white;
+    margin: 5rem 0;
+    content: " ";
+}
+
+#sec-tt h2 {
+    color: white;
+}
+
+
+.tt-row {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 1rem;
+    margin: 0;
+    border-radius: 1%;
+}
+
+.tt-it {
+    max-width: 24%;
+    min-width: 24%;
+    padding: 1rem;
+    color: white;
+    border-left: 2px solid white;
+}
+
+#sec-tt .newH2 span {
+    background-color: white;
+    color: white;
+}
+
+.tt-row h3 {
+    padding: 0 0 3rem 0;
+}
+
+.video {
+    max-width: 80%;
+    padding: 20rem 0;
+}
+
+#secTrag2 {
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#secTrag2 p {
+
+    text-align: left;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+    padding: 0 2rem 1rem 5rem;
+
+}
+
+#secTrag2 img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+#secTrag2 .text {
+    max-width: 50%;
+}
+
+#sec-tt2 {
+    background-color: #A5593C;
+    padding: 2rem;
+}
+
+#sec-tt2 .gB {
+    border-right: 2px solid white;
+    margin: 5rem 0;
+    content: " ";
+}
+
+#sec-tt2 h2 {
+    color: white;
+}
+
+
+.tt-row2 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 1rem;
+    margin: 0;
+    border-radius: 1%;
+}
+
+.tt-it2 {
+    max-width: 24%;
+    min-width: 24%;
+    padding: 1rem;
+    color: white;
+
+}
+
+#sec-tt2 .newH2 span {
+    background-color: white;
+    color: white;
+}
+
+.tt-row2 h3 {
+    padding: 0 0 3rem 0;
+}
+
+.divisor {
+    width: 3px;
+    padding: -3rem;
+    height: 5rem;
+    margin: 0;
+    align-items: end;
+
+}
