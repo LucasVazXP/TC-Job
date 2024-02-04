@@ -42,6 +42,23 @@
             </ul>
         </div>
     </nav>
+    <div class="wpp">
+
+    </div>
+    <div class="cookie">
+        <p>Esse site utiliza Cookies</p>
+        <button onclick="acceptCookie()">Ok</button>
+    </div>
+    <script>
+        function acceptCookie() {
+            const cookie = document.querySelector(".cookie")
+            cookie?.classList.add("hidden")
+        }
+
+
+    </script>
+
+
     <!-- Conteúdo Inicial -->
     <div id="mainSec">
         <figure class="img-fluid" id="logo"><img alt=""></figure>
@@ -84,12 +101,11 @@
         </div>
     </div>
 
-    <div class="container-fluid video" controls>
-        <div class="row"> <iframe width="480" height="720"
-                src="https://www.youtube.com/embed/nWrpy4GuZk0?si=LPebiOxL0x5YYCWu" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe></div>
+    <div class="videoRes" controls>
+        <iframe src="https://www.youtube.com/embed/nWrpy4GuZk0?si=LPebiOxL0x5YYCWu" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
 
     </div>
 
@@ -232,100 +248,6 @@
             </div>
         </div>
     </div>
-    <!-- Teste -->
-    <div class="container-fluid" id="sec-tt2">
-        <div class="newH2">
-            <h2>Tipos de Tratamento</h2>
-            <span></span>
-        </div>
-
-        <div class="tt-row2">
-            <!-- <span class="gB"></span> -->
-            <div class="tt-it2">
-                <h3>Ansiedade</h3>
-                <p>Apesar de ser um uma
-                    emoção natural, por vezes
-                    torna-se problemática
-                    devido ao excesso de
-                    preocupação, que trás
-                    comprometimento em sua
-                    vida. Para o tratamento
-                    vamos identificar em sua
-                    história a construção da
-                    relação disfuncional com a
-                    ansiedade, conduzir para
-                    alterar a forma com que
-                    você tem se relacionado
-                    com a ansiedade.
-                    A Terapia Comportamental
-                    é a mais efetiva para o
-                    tratamento de ansiedade.</p>
-            </div>
-            <img class="divisor" src="imgs/divisor5.png" alt="">
-            <!-- <span class="gB"></span> -->
-            <div class="tt-it2">
-                <h3>Depressão</h3>
-                <p>Os comportamentos
-                    depressivos podem ser
-                    tratados na terapia por meio
-                    de recuperação práticas
-                    prazerosas e auxiliar a lidar
-                    com situações
-                    desconfortáveis de maneira
-                    assertiva. Estratégia central
-                    na técnica de ativação
-                    comportamental.
-                    Inicialmente iremos avaliar
-                    em sua história o que
-                    mantém os comportamentos
-                    deprimidos, para depois
-                    construir um plano de
-                    cuidado que torne sua vida
-                    mais prazerosa.</p>
-            </div>
-            <img class="divisor" src="imgs/divisor5.png" alt="">
-            <!-- <span class="gB"></span> -->
-            <div class="tt-it2">
-                <h3>Transtorno Afetivo Bipolar </h3>
-                <p>Vamos aprofundar no
-                    conhecimento do
-                    transtorno em sua vida e
-                    identificar as relações por
-                    trás das desestabilizações
-                    emocionais e das atitudes.
-                    Algumas técnicas
-                    associadas à TCC, podem
-                    auxiliar nesse processo
-                    como o treinamento de
-                    habilidades de regulação
-                    emocional, técnicas de
-                    resolução de problemas e
-                    estratégias adaptativas
-                    para lidar com estressores
-                    e gatilhos.</p>
-            </div>
-            <img class="divisor" src="imgs/divisor5.png" alt="">
-            <!-- <span class="gB"></span> -->
-            <div class="tt-it2">
-                <h3>Uso Abusivo de Substâncias</h3>
-                <p>Iremos identificar qual o
-                    lugar que a droga ocupa
-                    em sua vida e qual a
-                    relação que você
-                    desenvolveu com a
-                    substância. Buscaremos
-                    reesignificar o uso, trazendo
-                    novas atividades que
-                    fazem sentido em sua vida.
-                    Faremos treinamento de
-                    autocontrole e habilidades
-                    sociais, recuperando a sua
-                    funcionalidade na relação
-                    consigo e com as outras
-                    pessoas.</p>
-            </div>
-        </div>
-    </div>
 
 
     <!-- Seção 5 -->
@@ -423,9 +345,9 @@
 
     <!-- Seção 7 -->
     <div>
-        <div class="container-fluid">
-            <div class="row align-items-center content apresent" id="secTrag2">
-                <div class="col-md-6 text-center text">
+        <div class="">
+            <div class="row" id="secTrag2">
+                <div class="col-md-6 align-items-center text-center">
                     <div class="newH2">
                         <h2>Minha tragetória</h2>
                         <span></span>
@@ -450,7 +372,7 @@
                         sexualidade, identidade e raça.</p>
 
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 d-flex align-items-center  text-center">
                     <img src="imgs/comportamental-terapeuta.png" alt="">
 
                 </div>

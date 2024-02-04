@@ -259,7 +259,7 @@ h2 {
     font-size: 4rem;
     color: rgb(10, 9, 9);
     margin: 15px;
-    text-align: right;
+    text-align: center;
 }
 
 
@@ -394,6 +394,20 @@ h2 {
     transition: 0.6s;
 }
 
+@media (max-width: 768px) {
+    #secFunc {
+        .secFunc-it {
+            max-width: 100%;
+            min-width: 100%;
+            border-radius: 5px;
+        }
+
+        padding: 30px;
+
+    }
+}
+
+
 #secTC {
     background-color: #D8E3DD;
     padding: 10rem 5rem 10rem 5rem;
@@ -448,9 +462,20 @@ h2 {
 
 
 
-@media (max-width:762px) {
-    .sec2Row-it {
-        max-width: 100%;
+@media (max-width:768px) {
+    #secTC {
+        padding: 2rem 0 2rem 0;
+
+        .tct-it {
+            min-width: 100%;
+            max-width: 100%;
+        }
+
+        .newH2 h2 {
+            max-width: 100%;
+            min-width: 100%;
+            font-size: 3rem;
+        }
     }
 }
 
@@ -496,10 +521,26 @@ h2 {
     padding: 0 0 3rem 0;
 }
 
-.video {
-    max-width: 80%;
-    padding: 20rem 0;
+@media (max-width: 768px) {
+    #sec-tt {
+        .tt-it {
+            max-width: 100%;
+            min-width: 100%;
+            border-left: 0;
+            border-bottom: 2px solid white;
+        }
+    }
 }
+
+.videoRes iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.videoRes {
+    padding: 5rem 0;
+}
+
 
 #secTrag2 {
     background-color: white;
@@ -524,6 +565,24 @@ h2 {
 #secTrag2 .text {
     max-width: 50%;
 }
+
+@media (max-width: 768px) {
+    #secTrag2 {
+        padding: 2rem 0;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0;
+
+        p {
+            padding: 0;
+        }
+
+        img {
+            padding: 1rem 0 0 0;
+        }
+    }
+}
+
 
 #sec-tt2 {
     background-color: #A5593C;
@@ -574,4 +633,30 @@ h2 {
     margin: 0;
     align-items: end;
 
+}
+
+.wpp {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.cookie {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    z-index: 3;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
 }
