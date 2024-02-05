@@ -23,5 +23,19 @@ Parte principal
 --------------------------------------
 
 - Colocar botão do Wpp que acompanha
-- deixar responsivo
+- deixar responsivo ok
 - menu mais interativo + JS 
+- fundo marrom no vídeo e trocar com a seção anterior ok
+- tirar todas os sublinhados dos títulos ok
+- colocar menu que leva para partes do site
+- Reduzir width do texto do Meu trabalho ok
+- Meus Serviços parece ter muito texto e arredondar as bordas
+- ajustar imagem principal no cel
+
+
+os topicos q tinha pensado na barra la de cima:
+inicio
+benefícios (ou terapia) 
+meu trabalho
+serviços
+sobre

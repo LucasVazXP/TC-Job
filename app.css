@@ -108,6 +108,8 @@ section {
 
 body {
     line-height: 1;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 ol,
@@ -155,7 +157,7 @@ body {
     display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #mainSec .title-wraper {
         background-color: rgba(0, 0, 0, 0.3);
         max-width: 80%;
@@ -273,7 +275,7 @@ h2 {
     color: #000000;
 }
 
-@media (max-width:762px) {
+@media (max-width:1024px) {
     .sec2Row-it {
         max-width: 100%;
     }
@@ -304,10 +306,10 @@ h2 {
 
 }
 
-.newH2 h2 {
+/* .newH2 h2 {
     padding: -5px;
     margin: 0;
-}
+} */
 
 #secTrag {
     background-color: white;
@@ -317,7 +319,7 @@ h2 {
 
 #secTrag p {
 
-    padding-bottom: 1rem;
+    padding: 0 2rem 1rem 5rem;
     text-align: left;
     line-height: 1.3rem;
     letter-spacing: 0.1rem;
@@ -329,27 +331,21 @@ h2 {
     border-radius: 30px;
 }
 
-#secPqTera {
-    background-color: #A5593C;
-    color: #D8E3DD;
-}
+@media (max-width: 1024px) {
+    #secTrag {
+        img {
+            max-width: 80%;
+            min-width: 80%;
+        }
 
-#secPqTera .newH2 span {
-    width: 20%;
-    border-bottom: 2px solid #6D8B85;
-    content: " ";
-}
+        p {
+            padding: 0 2rem 1rem 2rem;
+        }
 
-#secPqTera h2 {
-    color: #D8E3DD;
-}
-
-#secPqTera p {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
-    text-align: left;
+        .newH2 {
+            padding-top: 1.5rem;
+        }
+    }
 }
 
 #secFunc {
@@ -394,7 +390,7 @@ h2 {
     transition: 0.6s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #secFunc {
         .secFunc-it {
             max-width: 100%;
@@ -437,9 +433,9 @@ h2 {
     text-align: left;
 }
 
-.gB {
+/* .gB {
     border-right: 2px dashed #A5593C;
-}
+} */
 
 .tct-row {
     display: flex;
@@ -462,7 +458,7 @@ h2 {
 
 
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     #secTC {
         padding: 2rem 0 2rem 0;
 
@@ -512,16 +508,16 @@ h2 {
     border-left: 2px solid white;
 }
 
-#sec-tt .newH2 span {
+/* #sec-tt .newH2 span {
     background-color: white;
     color: white;
-}
+} */
 
 .tt-row h3 {
     padding: 0 0 3rem 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #sec-tt {
         .tt-it {
             max-width: 100%;
@@ -535,10 +531,12 @@ h2 {
 .videoRes iframe {
     width: 100%;
     aspect-ratio: 16/9;
+
 }
 
 .videoRes {
     padding: 5rem 0;
+    background-color: #A5593C;
 }
 
 
@@ -566,7 +564,7 @@ h2 {
     max-width: 50%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #secTrag2 {
         padding: 2rem 0;
         max-width: 100%;
@@ -659,4 +657,48 @@ h2 {
 
 .hidden {
     display: none;
+}
+
+#depo {
+    background-image: url(imgs/psicoterapia-desfoque.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.depo-row {
+    display: flex;
+    /* gap: 5px; */
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2rem 0;
+    gap: 50px;
+
+}
+
+.depo-it {
+    max-width: 21%;
+    min-width: 21%;
+    margin: 0 auto;
+    /* background-image: url(imgs/speech\ bubble.png); */
+    /* background-repeat: no-repeat; */
+    background-color: rgba(255, 255, 255, 0.6);
+    background-size: cover;
+    padding: 1rem;
+
+
+}
+
+#depo .newH2 {
+    padding-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .depo-it {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #depo .newH2 h2 {
+        font-size: 3rem;
+    }
 }
