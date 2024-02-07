@@ -158,28 +158,36 @@ body {
 }
 
 @media (max-width: 1024px) {
-    #mainSec .title-wraper {
-        background-color: rgba(0, 0, 0, 0.3);
-        max-width: 80%;
-        margin: 0 auto;
-        padding: 15px;
-        border-radius: 5px;
-        color: #fff;
+    #mainSec {
+        background-image: url(imgs/psicoterapia-mobile.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-        h1 {
+        .title-wraper {
+            background-color: rgba(0, 0, 0, 0.3);
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 15px;
+            border-radius: 5px;
             color: #fff;
-            word-break: break-word;
-            font-size: 2rem;
-            padding: 5px 0 10px 0;
+
+            h1 {
+                color: #fff;
+                word-break: break-word;
+                font-size: 2rem;
+                padding: 5px 0 10px 0;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
         }
 
-        h2 {
-            font-size: 1rem;
-        }
-
-        h3 {
-            font-size: 1.2rem;
-        }
     }
 
 }
@@ -634,10 +642,11 @@ h2 {
 }
 
 .wpp {
-    height: 50px;
-    width: 50px;
-    background-color: red;
+    height: 150px;
+    width: 150px;
     z-index: 2;
+    /* background-color: red; */
+    background-image: url(imgs/WhatsApp_icon2.png);
     position: fixed;
     bottom: 0;
     right: 0;
@@ -684,6 +693,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.6);
     background-size: cover;
     padding: 1rem;
+    border-radius: 5px;
 
 
 }
@@ -701,4 +711,36 @@ h2 {
     #depo .newH2 h2 {
         font-size: 3rem;
     }
+}
+
+.footer {
+    background-color: #A5593C;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 40px 0;
+}
+
+.footer .row {
+    align-items: center;
+
+    align-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-it {
+    padding: 20px 0;
+}
+
+.botao {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.logoFooter {
+    width: 220px;
+    height: 120px;
+    padding: 0;
 }

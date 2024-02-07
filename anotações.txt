@@ -30,8 +30,17 @@ Parte principal
 - colocar menu que leva para partes do site
 - Reduzir width do texto do Meu trabalho ok
 - Meus Serviços parece ter muito texto e arredondar as bordas
-- ajustar imagem principal no cel
+- ajustar imagem principal no cel ok
 
+------------------------------------------
+
+- ajustar Footer - julio
+- parte do Instagram 
+- página de contato - 
+- Colocar botão do Wpp que acompanha - julio
+- menu mais interativo + JS
+- colocar menu que leva para partes do site
+- Trocar textos
 
 os topicos q tinha pensado na barra la de cima:
 inicio
