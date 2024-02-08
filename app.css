@@ -371,11 +371,35 @@ h2 {
 
 #secFunc .secFunc-it {
     max-width: 20%;
-    min-width: 20%;
+    min-width: 300px;
 
     background-color: white;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
+    position: relative;
+
+    .funcIcon {
+        width: 100%;
+        position: absolute;
+        top: -40px;
+        display: flex;
+        justify-content: center;
+
+        figure {
+            background-color: #E8C3A8;
+            padding: 15px;
+            border-radius: 100%;
+            width: fit-content;
+
+            svg {
+
+                width: 50px;
+            }
+        }
+
+
+
+    }
 }
 
 #secFunc .newH2 {
@@ -392,8 +416,14 @@ h2 {
 
 }
 
-.btnCon:hover {
+.btnCon2:hover {
     background-color: white;
+    color: white;
+    transition: 0.6s;
+}
+
+.btnCon3:hover {
+    background-color: #6D8B85;
     color: white;
     transition: 0.6s;
 }
@@ -641,17 +671,6 @@ h2 {
 
 }
 
-.wpp {
-    height: 150px;
-    width: 150px;
-    z-index: 2;
-    /* background-color: red; */
-    background-image: url(imgs/WhatsApp_icon2.png);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
 .cookie {
     position: fixed;
     bottom: 5px;
@@ -672,41 +691,77 @@ h2 {
     background-image: url(imgs/psicoterapia-desfoque.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    margin: auto;
+
+    .backdrop {
+        background-color: #000000;
+        opacity: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
 }
 
 .depo-row {
     display: flex;
-    /* gap: 5px; */
+    gap: 5px;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 2rem 0;
     gap: 50px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
 
 }
 
 .depo-it {
     max-width: 21%;
-    min-width: 21%;
-    margin: 0 auto;
-    /* background-image: url(imgs/speech\ bubble.png); */
-    /* background-repeat: no-repeat; */
-    background-color: rgba(255, 255, 255, 0.6);
-    background-size: cover;
-    padding: 1rem;
+    min-width: 400px;
+    background-image: url(imgs/speech\ bubble2.png);
+    background-position: center;
+    background-size: 100% 100%;
     border-radius: 5px;
+    background-repeat: no-repeat;
+    padding: 30px;
+    padding-bottom: 95px;
+    z-index: 1;
+    display: flex;
 
+    div {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p {
+        padding: 0 5px;
+    }
 
 }
 
 #depo .newH2 {
-    padding-top: 2rem;
+    padding: 2rem 0;
+    z-index: 1;
+}
+
+#depo h2 {
+    padding: 1rem;
+    border-radius: 5px;
+    z-index: 1;
+    color: white;
 }
 
 @media (max-width: 1024px) {
-    .depo-it {
+    /* .depo-it {
         max-width: 100%;
         min-width: 100%;
-    }
+    } */
 
     #depo .newH2 h2 {
         font-size: 3rem;
@@ -718,29 +773,123 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     align-content: space-between;
-    padding: 40px 0;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 4;
 }
 
 .footer .row {
     align-items: center;
-
-    align-content: space-between;
+    justify-content: center;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-it {
     padding: 20px 0;
+    max-width: 31%;
+    min-height: 31%;
 }
 
-.botao {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto;
-}
 
 .logoFooter {
     width: 220px;
     height: 120px;
     padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .footer-it {
+        max-width: 100%;
+        min-height: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+
+
+.wpp {
+
+    z-index: 2;
+    /* background-color: red; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.wppImg {
+    height: 100px;
+    width: 100px;
+}
+
+.wppImg:hover {
+    height: 110px;
+    width: 110px;
+}
+
+/* Menu */
+.navbar-nav {
+    a {
+        font-size: 1.3rem;
+        font-family: 'Manjari', 'Mulish', sans-serif;
+
+        &:hover {
+            color: #A5593C;
+        }
+    }
+}
+
+.newNav {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        width: fit-content;
+        flex-grow: 0;
+
+        ul {
+            display: flex;
+            gap: 30px;
+            /* justify-content: space-between; */
+            width: 100%;
+
+        }
+    }
+}
+
+/*  Contato */
+form {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+
+.social {
+    padding: 0 0 50px 0;
+    background-color: #D8E3DD;
+}
+
+.form {
+    background-color: #D8E3DD;
+    padding-bottom: 50px;
+}
+
+.sepCont {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    a {
+        width: fit-content;
+        color: #000000;
+        cursor: pointer;
+
+        &:hover {
+            color: #D8E3DD;
+        }
+    }
 }

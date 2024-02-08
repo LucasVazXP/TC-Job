@@ -34,13 +34,15 @@ Parte principal
 
 ------------------------------------------
 
-- ajustar Footer - julio
+- ajustar Footer - ok
 - parte do Instagram 
+- Meus serviços imagens
 - página de contato - 
 - Colocar botão do Wpp que acompanha - julio
 - menu mais interativo + JS
 - colocar menu que leva para partes do site
 - Trocar textos
+- cookies
 
 os topicos q tinha pensado na barra la de cima:
 inicio
