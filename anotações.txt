@@ -35,14 +35,16 @@ Parte principal
 ------------------------------------------
 
 - ajustar Footer - ok
-- parte do Instagram 
-- Meus serviços imagens
-- página de contato - 
-- Colocar botão do Wpp que acompanha - julio
-- menu mais interativo + JS
-- colocar menu que leva para partes do site
+- parte do Instagram - ok
+- Meus serviços imagens - ok
+- página de contato - ok
+- Colocar botão do Wpp que acompanha - ok
+- menu mais interativo + JS - ok
+- corzinha no menu hover - ok
+- colocar menu que leva para partes do site - ok
 - Trocar textos
 - cookies
+- Tags onde clica - ok
 
 os topicos q tinha pensado na barra la de cima:
 inicio

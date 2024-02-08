@@ -831,6 +831,48 @@ h2 {
     width: 110px;
 }
 
+.carousel-item {
+    justify-content: center;
+
+
+    img {
+        margin: 0 auto;
+        width: 50%;
+
+        @media (max-width:768px) {
+            width: 100%;
+
+        }
+    }
+}
+
+#carousel {
+    /* position: relative; */
+    background-color: #A5593C;
+
+    a {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #E8C3A8;
+        z-index: 5;
+
+        svg {
+            width: 70px;
+            filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+        }
+
+        &:hover {
+            svg {
+                width: 80px;
+            }
+        }
+
+
+    }
+}
+
 /* Menu */
 .navbar-nav {
     a {
