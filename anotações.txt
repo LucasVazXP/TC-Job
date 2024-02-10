@@ -52,3 +52,9 @@ benefícios (ou terapia)
 meu trabalho
 serviços
 sobre
+
+-------------------------------------------------
+- Tirar fundo ver Minha Tragetória
+- Cor das palavras e simbolos do rodapé
+- Cor do título Meus Serviços
+- Cor do Email e Mensagem
