@@ -54,7 +54,9 @@ serviços
 sobre
 
 -------------------------------------------------
-- Tirar fundo ver Minha Tragetória
-- Cor das palavras e simbolos do rodapé
-- Cor do título Meus Serviços
-- Cor do Email e Mensagem
+- Tirar fundo ver Minha Tragetória - ok
+- Cor das palavras e simbolos do rodapé - ok
+- Cor do título Meus Serviços - ok
+- +1 botão - ok
+- Cor do Email e Mensagem - ok
+- cookies - ok
