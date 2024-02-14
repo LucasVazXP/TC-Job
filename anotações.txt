@@ -60,3 +60,11 @@ sobre
 - +1 botão - ok
 - Cor do Email e Mensagem - ok
 - cookies - ok
+
+----------------------------------------------------
+
+- fav icon - ok
+- Ogs meta tags - ok
+- Png to webp
+- min height contato - ok
+- deploy automático - ok

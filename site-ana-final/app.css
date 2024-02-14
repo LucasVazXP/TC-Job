@@ -146,7 +146,7 @@ body {
     margin: 0;
     padding-top: 18rem;
     padding-bottom: 23rem;
-    background-image: url('imgs/psicoterapia-online3.jpg');
+    background-image: url('imgs/psicoterapia-online3.webp');
     background-color: black;
     background-position: center center;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ body {
 
 @media (max-width: 1024px) {
     #mainSec {
-        background-image: url(imgs/psicoterapia-mobile.png);
+        background-image: url(imgs/psicoterapia-mobile.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -712,7 +712,7 @@ h2 {
 }
 
 #depo {
-    background-image: url(imgs/psicoterapia-desfoque.png);
+    background-image: url(imgs/psicoterapia-desfoque.webp);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -746,7 +746,7 @@ h2 {
 .depo-it {
     max-width: 21%;
     min-width: 400px;
-    background-image: url(imgs/speech\ bubble2.png);
+    background-image: url(imgs/speech\ bubble2.webp);
     background-position: center;
     background-size: 100% 100%;
     border-radius: 5px;
