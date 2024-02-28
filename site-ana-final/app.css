@@ -164,13 +164,19 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
 
+        .adjustMain {
+            position: relative;
+            top: 250px;
+        }
+
         .title-wraper {
             background-color: rgba(0, 0, 0, 0.3);
             max-width: 80%;
-            margin: 0 auto;
             padding: 15px;
             border-radius: 5px;
             color: #fff;
+            margin: 0 auto;
+
 
             h1 {
                 color: #fff;
@@ -584,14 +590,20 @@ h2 {
 }
 
 .videoRes iframe {
-    width: 100%;
+    width: 70%;
     aspect-ratio: 16/9;
+}
 
+@media (max-width: 1024px) {
+    .videoRes iframe {
+        width: 100%;
+    }
 }
 
 .videoRes {
     padding: 5rem 0;
     background-color: #A5593C;
+    text-align: center;
 }
 
 
