@@ -237,8 +237,8 @@ nav {
 
 p {
     font-family: 'Manjari', 'Mulish', sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
     letter-spacing: 0.07rem;
     font-weight: 550;
 
@@ -833,7 +833,7 @@ h2 {
 
     img {
         margin: 0 auto;
-        width: 50%;
+        width: 40%;
 
         @media (max-width:768px) {
             width: 100%;
@@ -845,6 +845,8 @@ h2 {
 #carousel {
     /* position: relative; */
     background-color: #A5593C;
+    /* height: 50%; */
+    /* width: 80%; */
 
     a {
         position: absolute;
